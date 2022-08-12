@@ -1,0 +1,6 @@
+1) que funcione el ejercicio
+2) tiene código repetido? Aplicar KISS, DRY, SOLID
+3) el problema que se resuelve se puede aplicar algún patrón?
+3.1) ver el diagrama de clases del patron
+3.2) convertir el diagrama de clases a código 
+3.3) refactorizar el código (que por supuesto ya funcionaba) al nuevo código con el patrón

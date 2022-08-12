@@ -1,0 +1,28 @@
+patron factory 5
+SOLID 3
+
+diagrama de secuencias 1
+colecciones: queue 4
+
+KISS 0
+patron strategy 5
+
+SOLID:
+-Codigo mas mantenible
+-Facil de cambiar
+-Facilitar la implementacion de nuevas funcionidades, hacer el codigo mas flexible
+
+Single Reponsability:
+Cada clase debe tener una sola responsabilidad, una sola tarea, podriamos tener un clase para el registro de un usuario, en la misma clase podriamos tener un metodo para encriptar la contraseña, esta clase ya tendria dos responsabilidades, crear el usuario e incriptar la contraseña. Tenemos que separar la encriptacion de contraseña en otra clase.
+
+Open Closed:
+Una enteidad de software debe quedar abierta para su extension pero cerrada para su modificacion, este principio ayuda a que la funcionadad del sistema sea dificil de romper, y para añadir nuevas funcionalidades tenemos que escribir nuevo codigo, no modificar el existente.
+
+Liskov Subtitution:
+Toda clase que es hija de otra clase debe poder utilizarse como si fuera el mismo padre, ninguna parte que necesite usar la clase padre debe comportarse diferete si utiliza cualquiera de sus hijos.
+
+Interface Segregation:
+Es mejor tener clases pequeñas y especializadas que una clase enorme general.
+
+Dependecy Inversion:
+Los modulos de bajo nivel no deberian depender de los modulos de alto nivel, deberian depender de las interfaces, de capas abstractas.
